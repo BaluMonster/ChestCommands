@@ -49,6 +49,10 @@ public class IconMenu implements Listener {
     	icons[absolutePosition] = icon;
         return this;
     }
+    
+    public Icon getIcon(int pos){
+    	return icons[pos];
+    }
    
     public void open(final Player player) {
     	

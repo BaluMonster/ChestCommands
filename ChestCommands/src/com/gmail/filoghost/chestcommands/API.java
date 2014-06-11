@@ -15,6 +15,10 @@ public class API {
 		return ChestCommands.yamlFileNameAndMenu.keySet();
 	}
 	
+	public static IconMenu getMenu(String name){
+		return ChestCommands.yamlFileNameAndMenu.get(name);
+	}
+	
 	/**
 	 * Note: this fail silently and should not trigger exceptions.
 	 * 
